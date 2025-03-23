@@ -17,7 +17,7 @@ use App\Http\Controllers\EmployeController;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::resource('trainings', TrainingController::class);
 Route::resource('sites', SiteController::class);
 Route::resource('grades', GradeController::class);
 Route::resource('employes', EmployeController::class);
