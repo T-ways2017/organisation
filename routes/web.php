@@ -20,5 +20,6 @@ Route::get('/', function () {
 Route::resource('trainings', TrainingController::class);
 Route::resource('specialities', SpecialityController::class);
 Route::resource('sites', SiteController::class);
+Route::resource('historiqueSites', HistoriqueSiteController::class);
 Route::resource('grades', GradeController::class);
 Route::resource('employes', EmployeController::class);
