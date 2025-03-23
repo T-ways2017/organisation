@@ -18,5 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('employes', EmployeController::class);
 Route::resource('sites', SiteController::class);
+Route::resource('grades', GradeController::class);
+Route::resource('employes', EmployeController::class);
